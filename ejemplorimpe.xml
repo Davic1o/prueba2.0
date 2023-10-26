@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>CARLOS DAVID VEGA VARELA</razonSocial>
+    <nombreComercial>CONEXION ECUADOR</nombreComercial>
+    <ruc>1722050935001</ruc>
+    <claveAcceso>1710202301172205093500110010010000000208765432113</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000000020</secuencial>
+    <dirMatriz>RAMIREZ DAVALOS ESQ Y ULPIANO PAEZ</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>17/10/2023</fechaEmision>
+    <dirEstablecimiento>RAMIREZ DAVALOS ESQ Y ULPIANO PAEZ</dirEstablecimiento>
+    <obligadoContabilidad>NO</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>CARLOS DAVID VEGA VARELA</razonSocialComprador>
+    <identificacionComprador>1722050935001</identificacionComprador>
+    <totalSinImpuestos>1.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>1.00</baseImponible>
+        <valor>0</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>1.12</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>1.12</total>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>125BJC-01</codigoPrincipal>
+      <codigoAuxiliar>1234D56789-A</codigoAuxiliar>
+      <descripcion>DERIVADOS PETRÓLEO</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>1.00</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>0.00</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>1.00</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="email">shaggi6e@gmail.com</campoAdicional>
+  </infoAdicional>
+</factura>
